@@ -1,0 +1,9 @@
+ShootingRange.Core                  dotnet new classlib
+ShootingRange.Infrastructure        dotnet new classlib
+ShootingRange.Api                   dotnet new webapi
+ShootingRange.Client                dotnet new blazorwasm
+ShootingRange.Tests                 dotnet new
+ShootingRange.Tests.EndToEnd        dotnet new
+
+
+ShootingRange.Core\ShootingRange.Core.csproj
