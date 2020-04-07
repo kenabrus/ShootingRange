@@ -1,8 +1,0 @@
-C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Infrastructure\bin\Debug\netstandard2.0\ShootingRange.Infrastructure.deps.json
-C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Infrastructure\bin\Debug\netstandard2.0\ShootingRange.Infrastructure.dll
-C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Infrastructure\bin\Debug\netstandard2.0\ShootingRange.Infrastructure.pdb
-C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Infrastructure\obj\Debug\netstandard2.0\ShootingRange.Infrastructure.csprojAssemblyReference.cache
-C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Infrastructure\obj\Debug\netstandard2.0\ShootingRange.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Infrastructure\obj\Debug\netstandard2.0\ShootingRange.Infrastructure.AssemblyInfo.cs
-C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Infrastructure\obj\Debug\netstandard2.0\ShootingRange.Infrastructure.dll
-C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Infrastructure\obj\Debug\netstandard2.0\ShootingRange.Infrastructure.pdb

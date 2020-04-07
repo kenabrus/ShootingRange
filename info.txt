@@ -7,3 +7,30 @@ ShootingRange.Tests.EndToEnd        dotnet new
 
 
 ShootingRange.Core\ShootingRange.Core.csproj
+
+
+git init
+git add .
+git commit -m "init project"
+git remote add origin https://github.com/kenabrus/ShootingRange.git
+git push -u origin master
+
+
+___________  blazor wasm ___________
+
+web.config
+
+When a Blazor project is published, a web.config file is created with the following IIS configuration:
+
+    MIME types are set for the following file extensions:
+        .dll – application/octet-stream
+        .json – application/json
+        .wasm – application/wasm
+        .woff – application/font-woff
+        .woff2 – application/font-woff
+    HTTP compression is enabled for the following MIME types:
+        application/octet-stream
+        application/wasm
+    URL Rewrite Module rules are established:
+        Serve the sub-directory where the app's static assets reside (wwwroot/{PATH REQUESTED}).
+        Create SPA fallback routing so that requests for non-file assets are redirected to the app's default document in its static assets folder (wwwroot/index.html).

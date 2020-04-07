@@ -12,7 +12,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using ShootingRange.Infrastructure.Data;
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.Swagger;
 
 //using ShootingRange.Infrastructure;
 
@@ -34,12 +35,40 @@ namespace ShootingRange.Api
             var migrationsAssemblyName = migrationsAssembly.Name;
 
                         // ===== Add our DbContext ========
-            services.AddDbContext<ApplicationDbContext>(options =>
+            //services.AddDbContext<ApplicationDbContext>(options =>
             //options.UseInMemoryDatabase("UniversityOnion"));
-            options.UseSqlite("Filename=ShootingRange.db", b => b.MigrationsAssembly(migrationsAssemblyName)));
+            //options.UseSqlite("Filename=ShootingRange.db", b => b.MigrationsAssembly(migrationsAssemblyName)));
             //options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly(migrationsAssemblyName)));
             //options.UseMySql(Configuration.GetConnectionString("MysqlConnection")));
             //options.UseNpgsql(Configuration.GetConnectionString("PgsqlConnection")));
+
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { 
+                    Title = "My API", 
+                    Version = "v1" 
+                });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme {
+                    In = ParameterLocation.Header, 
+                    Description = "Please insert JWT with Bearer into field",
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.ApiKey 
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement {
+                { 
+                    new OpenApiSecurityScheme 
+                    { 
+                    Reference = new OpenApiReference 
+                    { 
+                        Type = ReferenceType.SecurityScheme,
+                        Id = "Bearer" 
+                    } 
+                    },
+                    new string[] { } 
+                    } 
+                });
+            });
 
             services.AddControllers();
         }
@@ -56,7 +85,25 @@ namespace ShootingRange.Api
 
             app.UseRouting();
 
+            //Cors policy (Angular, wasm)
+            app.UseCors(x => x
+                // .AllowAnyOrigin()
+                // .WithOrigins("http://localhost:4200")
+                .WithOrigins("http://localhost:5000")
+                .AllowAnyMethod()
+                .AllowAnyHeader());
+
             app.UseAuthorization();
+
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
 
             app.UseEndpoints(endpoints =>
             {

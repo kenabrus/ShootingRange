@@ -34,7 +34,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ShootingRange.Core\ShootingRange.Core.csproj" />
-    <ProjectReference Include="..\ShootingRange.Infrastructure\ShootingRange.Infrastructure.csproj" />
+    <ProjectReference Include="..\ShootingRange.Shared\ShootingRange.Shared.csproj" />
   </ItemGroup>
 
 

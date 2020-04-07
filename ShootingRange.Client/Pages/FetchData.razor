@@ -35,12 +35,29 @@ else
 }
 
 @code {
+    private const string URL = "http://localhost:5005/";
     private WeatherForecast[] forecasts;
 
     protected override async Task OnInitializedAsync()
     {
         forecasts = await Http.GetJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        // forecasts = await Http.GetJsonAsync<WeatherForecast[]>("${URL}+WeatherForecast");
     }
+
+    @* public async Task WeatherForecastAsync()
+    {
+        apiResponse = await Http.GetJsonAsync<ApiResponseDto>($"api/Admin/Users?pageSize={pageSize}&pageNumber={currentPage}");
+
+        if (apiResponse.StatusCode == Status200OK)
+        {
+            matToaster.Add(apiResponse.Message, MatToastType.Success, "Users Retrieved");
+            users = Newtonsoft.Json.JsonConvert.DeserializeObject<List<UserInfoDto>>(apiResponse.Result.ToString());
+        }
+        else
+        {
+            matToaster.Add(apiResponse.Message + " : " + apiResponse.StatusCode, MatToastType.Danger, "User Retrieval Failed");
+        }
+    } *@
 
     public class WeatherForecast
     {

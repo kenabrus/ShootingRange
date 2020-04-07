@@ -88,6 +88,6 @@ C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Api\bin\Debug\netco
 C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Api\obj\Debug\netcoreapp3.1\ShootingRange.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Api\obj\Debug\netcoreapp3.1\ShootingRange.Api.csproj.CopyComplete
 C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Api\bin\Debug\netcoreapp3.1\ShootingRange.Core.dll
-C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Api\bin\Debug\netcoreapp3.1\ShootingRange.Infrastructure.dll
 C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Api\bin\Debug\netcoreapp3.1\ShootingRange.Core.pdb
-C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Api\bin\Debug\netcoreapp3.1\ShootingRange.Infrastructure.pdb
+C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Api\bin\Debug\netcoreapp3.1\ShootingRange.Shared.dll
+C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Api\bin\Debug\netcoreapp3.1\ShootingRange.Shared.pdb
