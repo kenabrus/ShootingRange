@@ -1,3 +1,3 @@
 dotnet build ./ShootingRange.Core
 dotnet build ./ShootingRange.Shared
-dotnet build ./ShootingRange.Api
+dotnet build ./ShootingRange.Server

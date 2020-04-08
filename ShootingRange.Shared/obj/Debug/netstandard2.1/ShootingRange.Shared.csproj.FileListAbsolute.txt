@@ -1,0 +1,8 @@
+C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Shared\bin\Debug\netstandard2.1\ShootingRange.Shared.deps.json
+C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Shared\bin\Debug\netstandard2.1\ShootingRange.Shared.dll
+C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Shared\bin\Debug\netstandard2.1\ShootingRange.Shared.pdb
+C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Shared\obj\Debug\netstandard2.1\ShootingRange.Shared.csprojAssemblyReference.cache
+C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Shared\obj\Debug\netstandard2.1\ShootingRange.Shared.AssemblyInfoInputs.cache
+C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Shared\obj\Debug\netstandard2.1\ShootingRange.Shared.AssemblyInfo.cs
+C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Shared\obj\Debug\netstandard2.1\ShootingRange.Shared.dll
+C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Shared\obj\Debug\netstandard2.1\ShootingRange.Shared.pdb

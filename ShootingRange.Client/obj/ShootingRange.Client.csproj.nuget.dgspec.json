@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\ShootingRange.Client.csproj": {}
+    "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\ShootingRange.Client.csproj": {}
   },
   "projects": {
-    "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\ShootingRange.Client.csproj": {
+    "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\ShootingRange.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\ShootingRange.Client.csproj",
+        "projectUniqueName": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\ShootingRange.Client.csproj",
         "projectName": "ShootingRange.Client",
-        "projectPath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\ShootingRange.Client.csproj",
+        "projectPath": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\ShootingRange.Client.csproj",
         "packagesPath": "C:\\Users\\kenabrus\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\obj\\",
+        "outputPath": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -23,17 +23,17 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {
-              "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Infrastructure\\ShootingRange.Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Infrastructure\\ShootingRange.Infrastructure.csproj"
+              "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj": {
+                "projectPath": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj"
               }
             }
           }
@@ -45,8 +45,12 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netstandard2.1": {
           "dependencies": {
+            "MatBlazor": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.AspNetCore.Blazor": {
               "target": "Package",
               "version": "[3.2.0-preview1.20073.1, )"
@@ -65,11 +69,17 @@
               "target": "Package",
               "version": "[3.2.0-preview1.20073.1, )"
             },
-            "NETStandard.Library": {
-              "suppressParent": "All",
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[12.0.2, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Toolbelt.Blazor.LoadingBar": {
+              "target": "Package",
+              "version": "[11.0.0.1, )"
             }
           },
           "imports": [
@@ -82,18 +92,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Infrastructure\\ShootingRange.Infrastructure.csproj": {
+    "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Infrastructure\\ShootingRange.Infrastructure.csproj",
-        "projectName": "ShootingRange.Infrastructure",
-        "projectPath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Infrastructure\\ShootingRange.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj",
+        "projectName": "ShootingRange.Shared",
+        "projectPath": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj",
         "packagesPath": "C:\\Users\\kenabrus\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -105,14 +120,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {}
           }
         },
@@ -123,49 +138,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[3.0.1, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.2, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[3.0.1, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[3.0.1, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[5.6.0, )"
-            }
-          },
+        "netstandard2.1": {
           "imports": [
             "net461",
             "net462",
@@ -176,6 +149,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
