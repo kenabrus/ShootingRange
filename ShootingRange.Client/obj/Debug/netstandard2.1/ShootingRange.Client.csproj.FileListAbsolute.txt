@@ -115,3 +115,5 @@ C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Client\obj\Debug\ne
 C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Client\obj\Debug\netstandard2.1\Razor\Pages\LoadingBackground.razor.g.cs
 C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Client\bin\Debug\netstandard2.1\dist\_framework\_bin\Serilog.dll
 C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Client\bin\Debug\netstandard2.1\Serilog.dll
+C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Contact.razor.g.cs
+C:\Users\kenabrus\Desktop\Blazor\ShootingRange\ShootingRange.Client\obj\Debug\netstandard2.1\Razor\Pages\Contact.razor.g.cs

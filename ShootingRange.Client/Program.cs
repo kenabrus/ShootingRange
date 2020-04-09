@@ -43,6 +43,7 @@ namespace ShootingRange.Client
                 config.MaximumOpacity = 95;
                 config.VisibleStateDuration = 3000;
             });
+            
 
             await builder
             .Build()
