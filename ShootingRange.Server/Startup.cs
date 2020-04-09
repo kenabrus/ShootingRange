@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using ShootingRange.Server.Data;
 using Swashbuckle.AspNetCore.Swagger;
 
 //using ShootingRange.Infrastructure;
@@ -35,10 +36,10 @@ namespace ShootingRange.Server
             var migrationsAssemblyName = migrationsAssembly.Name;
 
                         // ===== Add our DbContext ========
-            //services.AddDbContext<ApplicationDbContext>(options =>
+            services.AddDbContext<ApplicationDbContext>(options =>
             //options.UseInMemoryDatabase("UniversityOnion"));
             //options.UseSqlite("Filename=ShootingRange.db", b => b.MigrationsAssembly(migrationsAssemblyName)));
-            //options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly(migrationsAssemblyName)));
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly(migrationsAssemblyName)));
             //options.UseMySql(Configuration.GetConnectionString("MysqlConnection")));
             //options.UseNpgsql(Configuration.GetConnectionString("PgsqlConnection")));
 
@@ -109,6 +110,9 @@ namespace ShootingRange.Server
             {
                 endpoints.MapControllers();
             });
+
+            // ===== Initialize DB ======
+            InitializeContactsData.InitializeAsync(app.ApplicationServices).Wait();
         }
     }
 }
