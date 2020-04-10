@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "m63Lx94EIFdQcMDA5SuHIbbvE4bTFuvPwSmGzwPxZ7ajY6bGgT/0rLDcO41BiSrnoXgji/L4TIJTmOtUqE9s3A==",
+  "success": true,
+  "projectFilePath": "I:\\Blazor\\ShootingRange\\ShootingRange.Core\\ShootingRange.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\A.Urbanek\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\A.Urbanek\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\A.Urbanek\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

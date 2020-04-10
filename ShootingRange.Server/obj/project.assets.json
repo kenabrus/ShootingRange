@@ -1896,7 +1896,7 @@
           "lib/netstandard1.3/System.ComponentModel.dll": {}
         }
       },
-      "System.ComponentModel.Annotations/4.6.0": {
+      "System.ComponentModel.Annotations/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
@@ -3253,6 +3253,9 @@
       "ShootingRange.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
         "compile": {
           "bin/placeholder/ShootingRange.Core.dll": {}
         },
@@ -5765,10 +5768,10 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "System.ComponentModel.Annotations/4.6.0": {
-      "sha512": "pOd+UhZ3X8xfwKDlgAzowUJNjp8VYVmOHZm++vCd0kq1HZ0zK3mNo2yRXjYgv7Ik/Xi43fmJfND2PLEsQSALCg==",
+    "System.ComponentModel.Annotations/4.7.0": {
+      "sha512": "0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
       "type": "package",
-      "path": "system.componentmodel.annotations/4.6.0",
+      "path": "system.componentmodel.annotations/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5848,7 +5851,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.componentmodel.annotations.4.6.0.nupkg.sha512",
+        "system.componentmodel.annotations.4.7.0.nupkg.sha512",
         "system.componentmodel.annotations.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -9638,11 +9641,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Server\\ShootingRange.Server.csproj",
+      "projectUniqueName": "E:\\Blazor\\ShootingRange\\ShootingRange.Server\\ShootingRange.Server.csproj",
       "projectName": "ShootingRange.Server",
-      "projectPath": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Server\\ShootingRange.Server.csproj",
+      "projectPath": "E:\\Blazor\\ShootingRange\\ShootingRange.Server\\ShootingRange.Server.csproj",
       "packagesPath": "C:\\Users\\kenabrus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Server\\obj\\",
+      "outputPath": "E:\\Blazor\\ShootingRange\\ShootingRange.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -9663,11 +9666,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Core\\ShootingRange.Core.csproj": {
-              "projectPath": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Core\\ShootingRange.Core.csproj"
+            "E:\\Blazor\\ShootingRange\\ShootingRange.Core\\ShootingRange.Core.csproj": {
+              "projectPath": "E:\\Blazor\\ShootingRange\\ShootingRange.Core\\ShootingRange.Core.csproj"
             },
-            "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj": {
-              "projectPath": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj"
+            "E:\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj": {
+              "projectPath": "E:\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj"
             }
           }
         }

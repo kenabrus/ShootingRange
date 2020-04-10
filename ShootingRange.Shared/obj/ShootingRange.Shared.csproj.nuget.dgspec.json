@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj": {}
+    "E:\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj": {
+    "E:\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj",
+        "projectUniqueName": "E:\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj",
         "projectName": "ShootingRange.Shared",
-        "projectPath": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj",
+        "projectPath": "E:\\Blazor\\ShootingRange\\ShootingRange.Shared\\ShootingRange.Shared.csproj",
         "packagesPath": "C:\\Users\\kenabrus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Shared\\obj\\",
+        "outputPath": "E:\\Blazor\\ShootingRange\\ShootingRange.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
