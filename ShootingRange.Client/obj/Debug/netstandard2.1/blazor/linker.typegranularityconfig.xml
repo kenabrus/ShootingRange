@@ -19,6 +19,9 @@
   <assembly fullname="Microsoft.AspNetCore.Components.Web">
     <type fullname="*" preserve="all" required="false" />
   </assembly>
+  <assembly fullname="Microsoft.AspNetCore.Components.WebAssembly">
+    <type fullname="*" preserve="all" required="false" />
+  </assembly>
   <assembly fullname="Microsoft.AspNetCore.Metadata">
     <type fullname="*" preserve="all" required="false" />
   </assembly>

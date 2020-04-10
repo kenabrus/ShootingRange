@@ -9,551 +9,6 @@
     "TagHelpers": [
       {
         "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "ShootingRange.Client.App",
-=======
-        "Name": "ShootingRange.Client.Shared.NavMenu",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-<<<<<<< HEAD
-            "TagName": "App",
-=======
-            "TagName": "NavMenu",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "ShootingRange.Client.App"
-=======
-          "Common.TypeName": "ShootingRange.Client.Shared.NavMenu"
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        }
-      },
-      {
-        "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "ShootingRange.Client.App",
-=======
-        "Name": "ShootingRange.Client.Shared.NavMenu",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-<<<<<<< HEAD
-            "TagName": "ShootingRange.Client.App",
-=======
-            "TagName": "ShootingRange.Client.Shared.NavMenu",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "ShootingRange.Client.App",
-=======
-          "Common.TypeName": "ShootingRange.Client.Shared.NavMenu",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "ShootingRange.Client.Pages.Contact",
-=======
-        "Name": "ShootingRange.Client.Shared.SurveyPrompt",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-<<<<<<< HEAD
-            "TagName": "Contact",
-=======
-            "TagName": "SurveyPrompt",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-<<<<<<< HEAD
-            "Name": "Info",
-=======
-            "Name": "Title",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-<<<<<<< HEAD
-              "Common.PropertyName": "Info"
-=======
-              "Common.PropertyName": "Title"
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "ShootingRange.Client.Pages.Contact"
-=======
-          "Common.TypeName": "ShootingRange.Client.Shared.SurveyPrompt"
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        }
-      },
-      {
-        "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "ShootingRange.Client.Pages.Contact",
-=======
-        "Name": "ShootingRange.Client.Shared.SurveyPrompt",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-<<<<<<< HEAD
-            "TagName": "ShootingRange.Client.Pages.Contact",
-=======
-            "TagName": "ShootingRange.Client.Shared.SurveyPrompt",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-<<<<<<< HEAD
-            "Name": "Info",
-=======
-            "Name": "Title",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-<<<<<<< HEAD
-              "Common.PropertyName": "Info"
-=======
-              "Common.PropertyName": "Title"
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "ShootingRange.Client.Pages.Contact",
-=======
-          "Common.TypeName": "ShootingRange.Client.Shared.SurveyPrompt",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "ShootingRange.Client.Pages.Counter",
-=======
-        "Name": "ShootingRange.Client.Shared.MainLayout",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-<<<<<<< HEAD
-            "TagName": "Counter",
-=======
-            "TagName": "MainLayout",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-<<<<<<< HEAD
-        "BoundAttributes": [],
-=======
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "ShootingRange.Client.Pages.Counter"
-=======
-          "Common.TypeName": "ShootingRange.Client.Shared.MainLayout"
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        }
-      },
-      {
-        "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "ShootingRange.Client.Pages.Counter",
-=======
-        "Name": "ShootingRange.Client.Shared.MainLayout",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-<<<<<<< HEAD
-            "TagName": "ShootingRange.Client.Pages.Counter",
-=======
-            "TagName": "ShootingRange.Client.Shared.MainLayout",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-<<<<<<< HEAD
-        "BoundAttributes": [],
-=======
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "ShootingRange.Client.Pages.Counter",
-=======
-          "Common.TypeName": "ShootingRange.Client.Shared.MainLayout",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-<<<<<<< HEAD
-        "Kind": "Components.Component",
-        "Name": "ShootingRange.Client.Pages.FetchData",
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": null,
-=======
-        "Kind": "Components.ChildContent",
-        "Name": "ShootingRange.Client.Shared.MainLayout.Body",
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-<<<<<<< HEAD
-            "TagName": "FetchData",
-            "ParentTag": null,
-=======
-            "TagName": "Body",
-            "ParentTag": "MainLayout",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-<<<<<<< HEAD
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Info",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Info"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ShootingRange.Client.Pages.FetchData"
-=======
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "ShootingRange.Client.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "Kind": "Components.ChildContent",
-        "Name": "ShootingRange.Client.Shared.MainLayout.Body",
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "ShootingRange.Client.Shared.MainLayout",
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "ShootingRange.Client.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        }
-      },
-      {
-        "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "ShootingRange.Client.Pages.FetchData",
-=======
-        "Name": "ShootingRange.Client.Pages.Index",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-<<<<<<< HEAD
-            "TagName": "ShootingRange.Client.Pages.FetchData",
-=======
-            "TagName": "Index",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-<<<<<<< HEAD
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Info",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Info"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-=======
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ShootingRange.Client.Pages.Index"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "ShootingRange.Client.Pages.Index",
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ShootingRange.Client.Pages.Index",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "ShootingRange.Client.Pages.FetchData",
-=======
-          "Common.TypeName": "ShootingRange.Client.Pages.Index",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "ShootingRange.Client.Pages.Index",
-=======
-        "Name": "ShootingRange.Client.Pages.Counter",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-<<<<<<< HEAD
-            "TagName": "Index",
-=======
-            "TagName": "Counter",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "ShootingRange.Client.Pages.Index"
-=======
-          "Common.TypeName": "ShootingRange.Client.Pages.Counter"
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        }
-      },
-      {
-        "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "ShootingRange.Client.Pages.Index",
-=======
-        "Name": "ShootingRange.Client.Pages.Counter",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-<<<<<<< HEAD
-            "TagName": "ShootingRange.Client.Pages.Index",
-=======
-            "TagName": "ShootingRange.Client.Pages.Counter",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "ShootingRange.Client.Pages.Index",
-=======
-          "Common.TypeName": "ShootingRange.Client.Pages.Counter",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
         "Name": "ShootingRange.Client.Pages.LoadingBackground",
         "AssemblyName": "ShootingRange.Client",
         "Documentation": null,
@@ -714,22 +169,14 @@
       },
       {
         "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "ShootingRange.Client.Shared.MainLayout",
-=======
         "Name": "ShootingRange.Client.Pages.Contact",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
         "AssemblyName": "ShootingRange.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-<<<<<<< HEAD
-            "TagName": "MainLayout",
-=======
             "TagName": "Contact",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -739,18 +186,6 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-<<<<<<< HEAD
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-=======
             "Name": "Info",
             "TypeName": "System.String",
             "IsEnum": false,
@@ -760,7 +195,6 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Info"
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
             },
             "BoundAttributeParameters": []
           }
@@ -769,31 +203,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "ShootingRange.Client.Shared.MainLayout"
-=======
           "Common.TypeName": "ShootingRange.Client.Pages.Contact"
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
         }
       },
       {
         "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "ShootingRange.Client.Shared.MainLayout",
-=======
         "Name": "ShootingRange.Client.Pages.Contact",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
         "AssemblyName": "ShootingRange.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-<<<<<<< HEAD
-            "TagName": "ShootingRange.Client.Shared.MainLayout",
-=======
             "TagName": "ShootingRange.Client.Pages.Contact",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -803,18 +225,6 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-<<<<<<< HEAD
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-=======
             "Name": "Info",
             "TypeName": "System.String",
             "IsEnum": false,
@@ -824,7 +234,6 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Info"
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
             },
             "BoundAttributeParameters": []
           }
@@ -833,43 +242,284 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "ShootingRange.Client.Shared.MainLayout",
-=======
           "Common.TypeName": "ShootingRange.Client.Pages.Contact",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-<<<<<<< HEAD
-        "Kind": "Components.ChildContent",
-        "Name": "ShootingRange.Client.Shared.MainLayout.Body",
-        "AssemblyName": "ShootingRange.Client",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-=======
         "Kind": "Components.Component",
-        "Name": "ShootingRange.Client.Pages.FetchData",
+        "Name": "ShootingRange.Client.Pages.Index",
         "AssemblyName": "ShootingRange.Client",
         "Documentation": null,
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-<<<<<<< HEAD
-            "TagName": "Body",
-            "ParentTag": "MainLayout",
-=======
-            "TagName": "FetchData",
+            "TagName": "Index",
             "ParentTag": null,
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-<<<<<<< HEAD
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShootingRange.Client.Pages.Index"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "ShootingRange.Client.Pages.Index",
+        "AssemblyName": "ShootingRange.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShootingRange.Client.Pages.Index",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShootingRange.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "ShootingRange.Client.Pages.FetchData",
+        "AssemblyName": "ShootingRange.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Info",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Info"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShootingRange.Client.Pages.FetchData"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "ShootingRange.Client.Pages.FetchData",
+        "AssemblyName": "ShootingRange.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShootingRange.Client.Pages.FetchData",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Info",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Info"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShootingRange.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "ShootingRange.Client.Pages.Counter",
+        "AssemblyName": "ShootingRange.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShootingRange.Client.Pages.Counter"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "ShootingRange.Client.Pages.Counter",
+        "AssemblyName": "ShootingRange.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShootingRange.Client.Pages.Counter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShootingRange.Client.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "ShootingRange.Client.Shared.MainLayout",
+        "AssemblyName": "ShootingRange.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShootingRange.Client.Shared.MainLayout"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "ShootingRange.Client.Shared.MainLayout",
+        "AssemblyName": "ShootingRange.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShootingRange.Client.Shared.MainLayout",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShootingRange.Client.Shared.MainLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.ChildContent",
+        "Name": "ShootingRange.Client.Shared.MainLayout.Body",
+        "AssemblyName": "ShootingRange.Client",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout",
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
         "BoundAttributes": [],
         "AllowedChildTags": [],
         "Diagnostics": [],
@@ -903,56 +553,24 @@
           "Common.TypeName": "ShootingRange.Client.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-=======
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Info",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Info"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ShootingRange.Client.Pages.FetchData"
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
         }
       },
       {
         "Kind": "Components.Component",
-<<<<<<< HEAD
         "Name": "ShootingRange.Client.Shared.NavMenu",
-=======
-        "Name": "ShootingRange.Client.Pages.FetchData",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
         "AssemblyName": "ShootingRange.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-<<<<<<< HEAD
             "TagName": "NavMenu",
-=======
-            "TagName": "ShootingRange.Client.Pages.FetchData",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-<<<<<<< HEAD
         "BoundAttributes": [],
         "AllowedChildTags": [],
         "Diagnostics": [],
@@ -978,61 +596,30 @@
           }
         ],
         "BoundAttributes": [],
-=======
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Info",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Info"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
           "Common.TypeName": "ShootingRange.Client.Shared.NavMenu",
-=======
-          "Common.TypeName": "ShootingRange.Client.Pages.FetchData",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
         "Kind": "Components.Component",
-<<<<<<< HEAD
         "Name": "ShootingRange.Client.Shared.SurveyPrompt",
-=======
-        "Name": "ShootingRange.Client.App",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
         "AssemblyName": "ShootingRange.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-<<<<<<< HEAD
             "TagName": "SurveyPrompt",
-=======
-            "TagName": "App",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-<<<<<<< HEAD
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
@@ -1049,45 +636,29 @@
             "BoundAttributeParameters": []
           }
         ],
-=======
-        "BoundAttributes": [],
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
           "Common.TypeName": "ShootingRange.Client.Shared.SurveyPrompt"
-=======
-          "Common.TypeName": "ShootingRange.Client.App"
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
         }
       },
       {
         "Kind": "Components.Component",
-<<<<<<< HEAD
         "Name": "ShootingRange.Client.Shared.SurveyPrompt",
-=======
-        "Name": "ShootingRange.Client.App",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
         "AssemblyName": "ShootingRange.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-<<<<<<< HEAD
             "TagName": "ShootingRange.Client.Shared.SurveyPrompt",
-=======
-            "TagName": "ShootingRange.Client.App",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-<<<<<<< HEAD
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
@@ -1104,18 +675,60 @@
             "BoundAttributeParameters": []
           }
         ],
-=======
-        "BoundAttributes": [],
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
           "Common.TypeName": "ShootingRange.Client.Shared.SurveyPrompt",
-=======
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "ShootingRange.Client.App",
+        "AssemblyName": "ShootingRange.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShootingRange.Client.App"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "ShootingRange.Client.App",
+        "AssemblyName": "ShootingRange.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShootingRange.Client.App",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ShootingRange.Client.App",
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -103024,7 +102637,6 @@
   "RootNamespace": "ShootingRange.Client",
   "Documents": [
     {
-<<<<<<< HEAD
       "FilePath": "e:\\Blazor\\ShootingRange\\ShootingRange.Client\\Pages\\LoadingBackground.razor",
       "TargetPath": "Pages\\LoadingBackground.razor",
       "FileKind": "component"
@@ -103073,56 +102685,6 @@
       "FilePath": "e:\\Blazor\\ShootingRange\\ShootingRange.Client\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
-=======
-      "FilePath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\Pages\\Contact.razor",
-      "TargetPath": "Pages\\Contact.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\Pages\\LoadingBackground.razor",
-      "TargetPath": "Pages\\LoadingBackground.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\kenabrus\\Desktop\\Blazor\\ShootingRange\\ShootingRange.Client\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
     }
   ],
   "SerializationFormat": "0.2"
