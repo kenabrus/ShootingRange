@@ -48,7 +48,6 @@ namespace ShootingRange.Server.Migrations
 
                     b.ToTable("Contact");
                 });
-<<<<<<< HEAD
 
             modelBuilder.Entity("ShootingRange.Core.DomainModels.Lokalizacja", b =>
                 {
@@ -164,8 +163,6 @@ namespace ShootingRange.Server.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
-=======
->>>>>>> 22b4480249bd0ad61ca7e936bb48b9a1e2c5bd6c
 #pragma warning restore 612, 618
         }
     }
